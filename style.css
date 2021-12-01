@@ -1,0 +1,636 @@
+* {
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+body, h1, h2, p, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+ 
+    overflow-x: hidden; 
+	overflow-y: scroll;
+  }
+  html {
+	scroll-behavior: smooth;
+  }
+  table, td, th {
+    border: 1px solid #616D72;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table td {
+	width: 234px;
+}
+table th {
+	width: 70px;
+}
+th {
+    height: 70px;
+}
+
+
+/* Reset css */
+
+
+/* Começo do menu */
+.menu-bg {
+	background: #000000;
+    width: 100vw;
+}
+
+.menu {
+	font-family: Gotham HTF;
+    width: 100vw;
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 15px 0;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content:space-around;
+	align-items: center;
+}
+
+.menu a {
+	color: #91A3AD;
+}
+
+.menu-logo a {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 10px;
+}
+.logo {
+	width: auto;
+	height: 43px;
+}
+
+#menu-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#menu-nav a {
+	font-size: 15px;
+	display: block;
+	padding: 35px;
+}
+
+#menu-nav a:hover{
+	color: #ED145B;
+}
+
+.botao {
+	position: absolute;
+	width: 150px;
+	height: 35px;
+	color: #ED145B;
+	border: 2px solid #ED145B;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding-left:25px  ;
+	padding-top:7px ;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.botao:hover{
+	color: #FFF;
+	background-color: #ED145B;
+}
+/* fim do menu */
+
+
+/* Começo do banner */
+.div-banner {
+	background: #000000;
+	background-image: url(./images/banner.png);
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background-size: cover;
+}
+.div-text {
+	
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.textBanner{
+
+	font-family: Gotham HTF;
+	color:#91A3AD;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 70px;
+  	text-align: center;
+	
+
+}
+
+.textBanner2{
+
+	font-family: Gotham HTF;
+	color:#91A3AD;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	
+}
+
+.botao2 {
+	margin-top: 75px;
+	position: absolute;
+	width: 150px;
+	height: 35px;
+	color: #ED145B;
+	border: 2px solid #ED145B;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding-left:25px  ;
+	padding-top:7px ;
+}
+
+.botao2:hover{
+	color: #FFF;
+	background-color: #ED145B;
+}
+.scrollDown{
+	margin-top: 182px;
+	color:#91A3AD;
+}
+
+
+/* fim do banner */
+
+
+/* começo do curso */
+#cursoSection{
+	background-color: #000000;
+	width: 100vw;
+	height: 100vh;
+	
+}
+
+.div-curso {
+	width: 100vw;
+	max-width: 1600px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Gotham HTF;
+	padding: 25px 100px;
+	justify-content: space-around;
+	
+}
+.div-cursoH2{
+	
+	max-width: 1600px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Gotham HTF;
+	padding: 0px 100px;
+	justify-content: space-around;	
+}
+
+.cursoH2 {
+	color:#91A3AD;
+	font-size: 40px;
+}
+
+.cursoH3 {
+	color:#ED145B;
+	font-size: 16px;
+}
+
+.div-textP1 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 482px;
+	height: 408px;
+	max-width: 1600px;
+}
+
+.div-textP2 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 482px;
+	height: 408px;
+	max-width: 1600px;
+}
+
+.textP1 {
+	margin-top: 40px ;
+	font-family: Roboto;
+	display: flex;
+	flex-wrap: wrap;
+ 	color: #91A3AD;
+	 text-align: left;
+	 font-weight: 400;
+	 font-size: 16px;
+	 line-height: 30px;
+}
+
+.borda {
+	border: 1px solid #616D72;
+}
+
+.textP2 {
+	margin-top: 40px ;
+	font-family: Roboto;
+	display: flex;
+	flex-wrap: wrap;
+ 	color: #616D72;
+	 text-align: left;
+	 font-weight: 400;
+	 font-size: 16px;
+	 line-height: 30px;
+}
+
+.textP3 {
+	font-family: Roboto;
+	display: flex;
+	flex-wrap: wrap;
+ 	color: #616D72;
+	 text-align: left;
+	 font-weight: 400;
+	 font-size: 16px;
+	 line-height: 30px;
+	 
+	 padding-bottom:50px ;
+}
+/* Fim do curso  */
+
+
+/* Começo da matriz */
+#matrizSection {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000000;
+}
+
+.div-matriz{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+	
+
+.matrizH1{
+	color: #91A3AD;
+	position: absolute;
+	width: 523px;
+	height: 54px;
+	left: 480px;
+	top: 1716px;
+	font-family: Gotham HTF;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.matrizH2 {
+	position: absolute;
+	width: 523px;
+	height: 35px;
+	left: 568px;
+	top: 1777px;
+	color: #616D72;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.matrizP1 {
+	color: #91A3AD;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 35px;
+	border: 1px solid #91A3AD;
+	box-sizing: border-box;
+	position: absolute;
+	width: 962px;
+	height: 90px;
+	left: 480px;
+	top: 1897px;
+	padding-top: 27px;
+	padding-left: 40px ;
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+.eclipse {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1352px;
+	top: 1917px;
+	border: 2px solid #ED145B;
+	box-sizing: border-box;
+	border-radius: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.line1 {
+	position: absolute;
+	width: 20.83px;
+	height: 0px;
+	left: 1366.17px;
+	top: 1942px;
+	border: 2px solid #ED145B;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.line2 {
+	position: absolute;
+	width: 20.83px;
+	height: 0px;
+	left: 1366.17px;
+	top: 1942px;
+	border: 2px solid #ED145B;
+	transform: rotate(90deg);
+	}
+
+.matrizP2{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 35px;
+	position: absolute;
+	width: 962px;
+	height: 382px;
+	left: 480px;
+	top: 2007px;
+	border: 1px solid #91A3AD;
+	box-sizing: border-box;
+	color: #91A3AD;
+	padding-top: 27px;
+	padding-left: 40px ;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.matrizP3{
+	position: absolute;
+	width: 763px;
+	height: 210px;
+	left: 541px;
+	top: 2098px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+	letter-spacing: 0.05em;
+	color: #ED145B;
+	padding-bottom: 40px;
+}
+.matrizP4 {
+	position: absolute;
+	width: 763px;
+	height: 210px;
+	left: 541px;
+	top: 2098px;
+	color: #91A3AD;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+	letter-spacing: 0.05em;
+	padding-top: 20px;
+}
+
+.eclipse2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 1352px;
+	top: 2027px;
+	border: 2px solid #ED145B;
+	box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 50%;
+}
+
+.line3 {
+	position: absolute;
+	width: 20.83px;
+	height: 0px;
+	left: 1366.17px;
+	top: 2052px;
+	border: 2px solid #ED145B;
+}
+.line10 {
+	position: absolute;
+	width: 73.01px;
+	height: 0px;
+	left: 480px;
+	top: 1795.47px;
+	border: 1px solid #616D72;
+}
+
+/* fim da matriz */
+
+
+/* começo da turma */
+#turmasSection{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000000;
+}
+.div-turmas {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000000;
+}
+
+.turmasH1 {
+	position: absolute;
+	width: 350px;
+	height: 54px;
+	left: 785px;
+	top: 2540px;
+	font-family: Gotham HTF;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #91A3AD;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.spanBaixo {
+	position: absolute;
+	width: 40px;
+	height: 4px;
+	left: 941px;
+	top: 2619px;
+	background: #ED145B;
+}
+
+.tabela {
+	position: absolute;
+	width: 960px;
+	height: 216px;
+	left: 480px;
+	top: 2689px;
+	color: #616D72;	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tAclimacao {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #ED145B;
+}
+.tVilaOlimpia{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #ED145B;
+	}
+.tAclimacaoDuracao {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #91A3AD;
+}
+
+.tAclimacaoDias {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 16px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #91A3AD;
+}
+
+.tAclimacaoHorario {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 16px;
+	align-items: center;
+	letter-spacing: 0.05em;
+	color: #91A3AD;
+}
+
+.tAclimacaoMensalidade {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #91A3AD;
+}
+
+.pTabela{
+	position: absolute;
+	width: 239px;
+	height: 16px;
+	left: 1199px;
+	top: 2913px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	color: #616D72;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.div-botaoFinal {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000000;
+}
+
+
+#botao3 {
+	font-family: Gotham HTF;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 13px;
+	letter-spacing: 0.05em;
+	color: #ED145B;
+	position: absolute;
+	width: 160px;
+	height: 35px;
+	left: 871px;
+	top: 2978px;
+	border: 2px solid #ED145B;
+	box-sizing: border-box;
+	padding-left:25px  ;
+	padding-top:7px ;
+}
+
+#botao3:hover{
+	color: #FFF;
+	background-color: #ED145B;
+}
+
+/* fim da turma */
